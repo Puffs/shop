@@ -1,0 +1,411 @@
+.nav {
+    display: flex;
+   
+    width: 1140px;
+    height: 182px;
+    background-color: #ddd5d5;
+    border:2px solid black;
+}
+.nav-logo{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    height: 70px;
+    width: 70px;
+    background-color: black;  
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.nav-logo-img {
+    width: 55px;
+    height: 56px;
+    padding-top: 5px;
+}
+.nav-basket {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 60px;
+}
+.nav-h1-ref {
+    text-decoration: none;
+    color: black !important;
+}
+.nav-basket-ref {
+    text-decoration: none;
+    
+}
+.nav-basket-img {
+    width: 40px;
+    height: 40px;
+    fill: white;
+    padding-top: 10px    ;
+}
+.nav-h1{
+    position: absolute;
+    font-size: 48px;
+    margin-left: 110px;
+    margin-top: 55px;
+}
+.nav-h2{
+    position: absolute;
+    font-size: 24px;
+    margin-top: 110px;
+    margin-left: 110px; 
+}
+.nav-h3{
+    position:   absolute;
+    font-size: 20px;
+    margin-left: 960px;
+    margin-top: 95px;
+}
+.left-side-head1{
+    width: 120px;
+    height: 186px;
+    background-color: #6A5E5E;
+}
+.right-side-head1{
+    width: 120px;
+    height: 186px;
+    background-color: #6A5E5E;
+}
+.head-block {
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.main-page{
+    margin-top: 20px;
+    width: 1144px;
+    height: 1462px;
+   
+}
+.left-side-main1 {
+    width: 120px;
+    height: 1482px;
+    background-color: #6A5E5E;
+}
+.right-side-main1{
+    width: 120px;
+    height: 1482px;
+    background-color: #6A5E5E;
+}
+.main-page-dota-chess {
+    
+    width: 1140px;
+    height: 381px;
+    background-image: url("../img/Шахматы\ дота.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    border: 2px solid black;
+}
+.main-page-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 1144px;
+    height: 533px;
+    
+}
+.main-page-content-catalog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 730px;
+    height:533px;
+    background-color: rgba(0,0,0,0.9);
+    border:2px solid black;
+}
+.main-page-content-catalog-button{
+    width: 650px;
+    height: 120px;
+    background-color: grey;
+    color: white;
+    font-size: 60px;
+}
+.main-page-content-catalog-button-ref {
+    text-decoration: none;
+    color: white !important;
+}
+.main-page-content-catalog-description{
+    font-family: serif;
+    font-size: 50px;
+    color:white;
+    padding-left: 40px;
+    padding-right: 0px;
+}
+.main-page-content-board {
+    width: 386px;
+    height: 533px;
+    border:2px solid black;
+}
+.main-page-content-board-img {
+    width: 386px;
+    height: 420px;
+    background-image: url(../img/Paint2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    
+}
+.main-page-content-board-description-txt-ref {
+    color:white !important;
+    text-decoration: none;
+}
+.main-page-content-board-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+    height: 114px;
+    background-color: rgba(0,0,0,0.9);
+}
+.main-page-content-board-description-txt{
+    font-size: 52px;
+    color: white;
+}
+.main-page-players {
+    height: 500px;
+    width: 1144;
+   
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+}
+.main-page-players-people{
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    font-size: 50px;
+    height:500px;
+    width: 560px;
+}
+
+.main-page-players-people-block-header{
+    display: flex;
+    font-size: 40px;
+    justify-content: space-around;
+}
+.main-page-players-people-column{
+    display: flex;
+    width: 560px;
+    height: 60px;
+    justify-content:space-around ;
+    font-size: 30px;
+}
+.main-page-players-people-block-list{
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    width: 560px;
+    height: 30px;  
+    margin-top: 5px;
+}
+.main-page-players-people-block-list-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 2px;
+}
+
+.main-page-players-women {
+    text-align: center;
+    font-size: 50px;
+    height:500px;
+    width: 560px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-side-footer1{
+    width: 120px;
+    height: 112px;
+    background-color: #6A5E5E;
+}
+.right-side-footer1{
+    width: 120px;
+    height: 112px;
+    background-color: #6A5E5E;
+}
+.footer-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    width: 1144px;
+    height: 60px;
+    border-top:2px solid black;
+    
+}
+.footer-block-mail {
+    font-size: 30px;
+}
+.footer-block-telephone{
+    font-size: 22px;
+}
+
+.main-catalog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 1144px;
+    height: 1462px;
+    
+}
+.main-catalog-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    height: 600px;
+    background-color:#c4c4c4;
+}
+.main-catalog-tovar {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 824px;
+    height: 1462px;
+}
+.main-catalog-menu-choose{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2px;
+    width: 296px;
+    height: 70px;
+    border: 2px solid black;
+    
+}
+.main-catalog-menu-choose-ref{
+    text-decoration: none;
+    color:black !important;
+    font-size: 30px;
+}
+
+.main-catalog-tovar-block {
+    display: flex;
+    flex-direction: column;
+    width: 262px;
+    height: 308px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.main-catalog-tovar-block-img{
+    width: 262px;
+    height: 220px;
+}
+.main-catalog-tovar-block-img-size{
+    width: 262px;
+    height: 220px;
+}
+.main-catalog-tovar-block-label{
+    font-size: 20px;
+    text-align: center;
+    width: 262px;
+    height: 58px;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+    
+.main-catalog-tovar-block-move{
+    display: flex;
+    width: 262px;
+    height: 30px;
+}
+.main-catalog-tovar-block-move-price {
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    font-size: 25px;
+    border-right: 2px solid black;
+    background-color: #c4c4c4;
+}
+.main-catalog-tovar-block-move-add{
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+    height: 30px;
+    background-color:#ffd1d1;
+}
+.main-basket{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+    width: 1144px;
+   
+    
+    
+}
+.main-basket-element{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 910px;
+    height: 200px;
+   
+    border-bottom: 2px solid black;
+}
+.main-basket-nav {
+    font-size: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 910px;
+    height: 40px;
+    margin-top: 80px;
+   
+    border-bottom: 2px solid black;
+}
+.main-basket-nav-txt{
+    font-size: 40px;
+    
+}
+.main-basket-element-img {
+    height: 115px;
+    width: 115px;
+}
+.main-basket-element-txt {
+    font-size: 30px;
+}
+.main-basket-purchase{
+   
+    width: 910px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+    
+}
+.main-basket-purchase-txt {
+    margin-right: 20px;
+    font-size: 22px;
+   
+}
+.main-basket-purchase-button{
+    width: 200px;
+    height: 60px;
+    background-color: #d2b9b9;
+    margin-right: 70px;
+}
